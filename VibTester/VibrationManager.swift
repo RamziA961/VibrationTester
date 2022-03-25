@@ -19,9 +19,7 @@ class VibrationManager {
         self.haptics = try? LofeltHaptics.init()
         self.audioEngine = AVAudioEngine()
         self.audioPlayer = AVAudioPlayerNode()
-        
         self.audioEngine.attach(audioPlayer)
-        
         self.audioPlayer.volume = 0
     }
     
@@ -49,7 +47,13 @@ class VibrationManager {
             format: audioFile.processingFormat
         )
         
-        try! self.haptics?.attachAudioSource(self.audioPlayer)
+        try? self.haptics?.load(
+            NSString(
+                data: NSDataAsset(name: vibName)!.data,
+                encoding: String.Encoding.utf8.rawValue
+            )! as String
+        )
+        
         
         try! self.audioEngine.start()
     
@@ -60,14 +64,6 @@ class VibrationManager {
         )
         
         self.audioPlayer.play()
-
-//        try? haptics?.load(
-//            NSString(
-//                data: NSDataAsset(name: vibName)!.data,
-//                encoding: String.Encoding.utf8.rawValue
-//            )! as String
-//        )
-        
-//        try? haptics?.play()
+        try? self.haptics?.play()
     }
 }
