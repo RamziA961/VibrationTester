@@ -11,7 +11,44 @@
 		2D14FE2027E9B69F0040E27B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE1F27E9B69F0040E27B /* ContentView.swift */; };
 		2D14FE2227E9B6A10040E27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D14FE2127E9B6A10040E27B /* Assets.xcassets */; };
 		2D14FE2527E9B6A10040E27B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D14FE2427E9B6A10040E27B /* Preview Assets.xcassets */; };
+		2D14FE2C27E9B7F60040E27B /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2B27E9B7F60040E27B /* PlayButton.swift */; };
+		2D14FE3027E9BF900040E27B /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2F27E9BF900040E27B /* VibrationManager.swift */; };
+		2D14FE3227EA76B70040E27B /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE3127EA76B70040E27B /* ButtonRow.swift */; };
+		2D2381CC27ED36F1007CEF6D /* v-2000-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381CB27ED36F1007CEF6D /* v-2000-100-0.wav */; };
+		2D2381CE27ED3739007CEF6D /* v-2000-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381CD27ED3739007CEF6D /* v-2000-100-8.wav */; };
+		2D2381D027ED377A007CEF6D /* v-2000-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381CF27ED377A007CEF6D /* v-2000-150-0.wav */; };
+		2D2381D227ED3787007CEF6D /* v-2000-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381D127ED3787007CEF6D /* v-2000-150-8.wav */; };
+		2D2381D427ED3794007CEF6D /* v-2000-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381D327ED3794007CEF6D /* v-2000-200-0.wav */; };
+		2D2381D627ED37A3007CEF6D /* v-2000-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381D527ED37A3007CEF6D /* v-2000-200-8.wav */; };
+		2D2381D827ED37F7007CEF6D /* v-50-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381D727ED37F7007CEF6D /* v-50-100-0.wav */; };
+		2D2381DA27ED3802007CEF6D /* v-50-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381D927ED3802007CEF6D /* v-50-100-8.wav */; };
+		2D2381DC27ED380C007CEF6D /* v-50-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381DB27ED380C007CEF6D /* v-50-150-0.wav */; };
+		2D2381DE27ED3819007CEF6D /* v-50-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381DD27ED3819007CEF6D /* v-50-150-8.wav */; };
+		2D2381E027ED3830007CEF6D /* v-50-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381DF27ED3830007CEF6D /* v-50-200-0.wav */; };
+		2D2381E427ED385C007CEF6D /* v-50-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381E327ED385C007CEF6D /* v-50-200-8.wav */; };
+		2D2381E627ED3868007CEF6D /* v-300-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381E527ED3868007CEF6D /* v-300-100-0.wav */; };
+		2D2381E827ED3872007CEF6D /* v-300-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381E727ED3872007CEF6D /* v-300-100-8.wav */; };
+		2D2381EA27ED387B007CEF6D /* v-300-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381E927ED387B007CEF6D /* v-300-150-0.wav */; };
+		2D2381EC27ED3884007CEF6D /* v-300-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381EB27ED3884007CEF6D /* v-300-150-8.wav */; };
+		2D2381EE27ED388D007CEF6D /* v-300-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381ED27ED388D007CEF6D /* v-300-200-0.wav */; };
+		2D2381F027ED3899007CEF6D /* v-300-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D2381EF27ED3899007CEF6D /* v-300-200-8.wav */; };
+		2D5D166227EAF205004AB418 /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; };
+		2D5D166327EAF205004AB418 /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D5D166427EAF205004AB418 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D5D166327EAF205004AB418 /* LofeltHaptics.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2D14FE1A27E9B69F0040E27B /* VibTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +56,28 @@
 		2D14FE1F27E9B69F0040E27B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D14FE2127E9B6A10040E27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D14FE2427E9B6A10040E27B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D14FE2B27E9B7F60040E27B /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LofeltHaptics.xcframework; sourceTree = "<group>"; };
+		2D14FE2F27E9BF900040E27B /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
+		2D14FE3127EA76B70040E27B /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
+		2D2381CB27ED36F1007CEF6D /* v-2000-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-100-0.wav"; sourceTree = "<group>"; };
+		2D2381CD27ED3739007CEF6D /* v-2000-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-100-8.wav"; sourceTree = "<group>"; };
+		2D2381CF27ED377A007CEF6D /* v-2000-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-150-0.wav"; sourceTree = "<group>"; };
+		2D2381D127ED3787007CEF6D /* v-2000-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-150-8.wav"; sourceTree = "<group>"; };
+		2D2381D327ED3794007CEF6D /* v-2000-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-200-0.wav"; sourceTree = "<group>"; };
+		2D2381D527ED37A3007CEF6D /* v-2000-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-200-8.wav"; sourceTree = "<group>"; };
+		2D2381D727ED37F7007CEF6D /* v-50-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-100-0.wav"; sourceTree = "<group>"; };
+		2D2381D927ED3802007CEF6D /* v-50-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-100-8.wav"; sourceTree = "<group>"; };
+		2D2381DB27ED380C007CEF6D /* v-50-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-150-0.wav"; sourceTree = "<group>"; };
+		2D2381DD27ED3819007CEF6D /* v-50-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-150-8.wav"; sourceTree = "<group>"; };
+		2D2381DF27ED3830007CEF6D /* v-50-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-200-0.wav"; sourceTree = "<group>"; };
+		2D2381E327ED385C007CEF6D /* v-50-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-200-8.wav"; sourceTree = "<group>"; };
+		2D2381E527ED3868007CEF6D /* v-300-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-100-0.wav"; sourceTree = "<group>"; };
+		2D2381E727ED3872007CEF6D /* v-300-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-100-8.wav"; sourceTree = "<group>"; };
+		2D2381E927ED387B007CEF6D /* v-300-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-150-0.wav"; sourceTree = "<group>"; };
+		2D2381EB27ED3884007CEF6D /* v-300-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-150-8.wav"; sourceTree = "<group>"; };
+		2D2381ED27ED388D007CEF6D /* v-300-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-200-0.wav"; sourceTree = "<group>"; };
+		2D2381EF27ED3899007CEF6D /* v-300-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-200-8.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5D166227EAF205004AB418 /* LofeltHaptics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +111,15 @@
 		2D14FE1C27E9B69F0040E27B /* VibTester */ = {
 			isa = PBXGroup;
 			children = (
+				2D2381CA27ED36D2007CEF6D /* wav Files */,
+				2D14FE3127EA76B70040E27B /* ButtonRow.swift */,
+				2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */,
 				2D14FE1D27E9B69F0040E27B /* VibTesterApp.swift */,
 				2D14FE1F27E9B69F0040E27B /* ContentView.swift */,
 				2D14FE2127E9B6A10040E27B /* Assets.xcassets */,
 				2D14FE2327E9B6A10040E27B /* Preview Content */,
+				2D14FE2B27E9B7F60040E27B /* PlayButton.swift */,
+				2D14FE2F27E9BF900040E27B /* VibrationManager.swift */,
 			);
 			path = VibTester;
 			sourceTree = "<group>";
@@ -67,6 +132,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2D2381CA27ED36D2007CEF6D /* wav Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D2381D727ED37F7007CEF6D /* v-50-100-0.wav */,
+				2D2381D927ED3802007CEF6D /* v-50-100-8.wav */,
+				2D2381DB27ED380C007CEF6D /* v-50-150-0.wav */,
+				2D2381DD27ED3819007CEF6D /* v-50-150-8.wav */,
+				2D2381DF27ED3830007CEF6D /* v-50-200-0.wav */,
+				2D2381E327ED385C007CEF6D /* v-50-200-8.wav */,
+				2D2381E527ED3868007CEF6D /* v-300-100-0.wav */,
+				2D2381CB27ED36F1007CEF6D /* v-2000-100-0.wav */,
+				2D2381E727ED3872007CEF6D /* v-300-100-8.wav */,
+				2D2381EB27ED3884007CEF6D /* v-300-150-8.wav */,
+				2D2381E927ED387B007CEF6D /* v-300-150-0.wav */,
+				2D2381EF27ED3899007CEF6D /* v-300-200-8.wav */,
+				2D2381ED27ED388D007CEF6D /* v-300-200-0.wav */,
+				2D2381CD27ED3739007CEF6D /* v-2000-100-8.wav */,
+				2D2381CF27ED377A007CEF6D /* v-2000-150-0.wav */,
+				2D2381D127ED3787007CEF6D /* v-2000-150-8.wav */,
+				2D2381D327ED3794007CEF6D /* v-2000-200-0.wav */,
+				2D2381D527ED37A3007CEF6D /* v-2000-200-8.wav */,
+			);
+			path = "wav Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +167,7 @@
 				2D14FE1627E9B69F0040E27B /* Sources */,
 				2D14FE1727E9B69F0040E27B /* Frameworks */,
 				2D14FE1827E9B69F0040E27B /* Resources */,
+				2D5D166427EAF205004AB418 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +216,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2381CE27ED3739007CEF6D /* v-2000-100-8.wav in Resources */,
+				2D2381DC27ED380C007CEF6D /* v-50-150-0.wav in Resources */,
+				2D2381DA27ED3802007CEF6D /* v-50-100-8.wav in Resources */,
+				2D2381D427ED3794007CEF6D /* v-2000-200-0.wav in Resources */,
+				2D2381E827ED3872007CEF6D /* v-300-100-8.wav in Resources */,
+				2D2381F027ED3899007CEF6D /* v-300-200-8.wav in Resources */,
+				2D2381D027ED377A007CEF6D /* v-2000-150-0.wav in Resources */,
+				2D2381CC27ED36F1007CEF6D /* v-2000-100-0.wav in Resources */,
+				2D2381E027ED3830007CEF6D /* v-50-200-0.wav in Resources */,
+				2D2381EA27ED387B007CEF6D /* v-300-150-0.wav in Resources */,
+				2D2381D227ED3787007CEF6D /* v-2000-150-8.wav in Resources */,
+				2D2381D827ED37F7007CEF6D /* v-50-100-0.wav in Resources */,
+				2D2381D627ED37A3007CEF6D /* v-2000-200-8.wav in Resources */,
 				2D14FE2527E9B6A10040E27B /* Preview Assets.xcassets in Resources */,
+				2D2381EC27ED3884007CEF6D /* v-300-150-8.wav in Resources */,
+				2D2381EE27ED388D007CEF6D /* v-300-200-0.wav in Resources */,
+				2D2381DE27ED3819007CEF6D /* v-50-150-8.wav in Resources */,
+				2D2381E627ED3868007CEF6D /* v-300-100-0.wav in Resources */,
+				2D2381E427ED385C007CEF6D /* v-50-200-8.wav in Resources */,
 				2D14FE2227E9B6A10040E27B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +248,9 @@
 			files = (
 				2D14FE2027E9B69F0040E27B /* ContentView.swift in Sources */,
 				2D14FE1E27E9B69F0040E27B /* VibTesterApp.swift in Sources */,
+				2D14FE3027E9BF900040E27B /* VibrationManager.swift in Sources */,
+				2D14FE2C27E9B7F60040E27B /* PlayButton.swift in Sources */,
+				2D14FE3227EA76B70040E27B /* ButtonRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +389,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
