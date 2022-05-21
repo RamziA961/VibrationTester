@@ -6,64 +6,32 @@
 //
 
 import Foundation
-import AVFoundation
-import LofeltHaptics
 import UIKit
+import CoreHaptics
 
 class VibrationManager {
-    private var haptics : LofeltHaptics?
-    private let audioPlayer : AVAudioPlayerNode
-    private let audioEngine : AVAudioEngine
-    
+    private var haptics : CHHapticEngine?
+        
     init() {
-        self.haptics = try? LofeltHaptics.init()
-        self.audioEngine = AVAudioEngine()
-        self.audioPlayer = AVAudioPlayerNode()
-        self.audioEngine.attach(audioPlayer)
-        self.audioPlayer.volume = 0
-    }
-    
-    func playAudio() {
-        if self.audioPlayer.volume == 0 {
-            self.audioPlayer.volume = 1
-        } else {
-            self.audioPlayer.volume = 0
+        self.haptics = nil
+        
+        if (CHHapticEngine.capabilitiesForHardware().supportsHaptics) {
+            do {
+                self.haptics = try CHHapticEngine()
+                try self.haptics?.start()
+            } catch let error {
+                print(error)
+            }
         }
     }
     
-    func audioOn() -> Bool {
-        return self.audioPlayer.volume == 1
-    }
     
     func play(vibName: String) {
+        guard let path = Bundle.main.url(forResource: vibName, withExtension: "ahap") else {
+            print("Not Found")
+            return
+        }
         
-        let fileUrl = Bundle.main.url(forResource: vibName, withExtension: "wav")!
-        
-        let audioFile = try! AVAudioFile.init(forReading: fileUrl)
-        
-        self.audioEngine.connect(
-            self.audioPlayer,
-            to: self.audioEngine.mainMixerNode,
-            format: audioFile.processingFormat
-        )
-        
-        try? self.haptics?.load(
-            NSString(
-                data: NSDataAsset(name: vibName)!.data,
-                encoding: String.Encoding.utf8.rawValue
-            )! as String
-        )
-        
-        
-        try! self.audioEngine.start()
-    
-        self.audioPlayer.scheduleFile(
-            audioFile,
-            at: nil,
-            completionHandler: nil
-        )
-        
-        self.audioPlayer.play()
-        try? self.haptics?.play()
+        try? self.haptics?.playPattern(from: path)
     }
 }

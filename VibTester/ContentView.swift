@@ -9,64 +9,19 @@ import SwiftUI
 
 
 private let vibrations = [
-    "v-50-100-0",
-    "v-50-100-8",
-    "v-50-150-0",
-    "v-50-150-8",
-    "v-50-200-0",
-    "v-50-200-8",
-    
-    "v-300-100-0",
-    "v-300-100-8",
-    "v-300-150-0",
-    "v-300-150-8",
-    "v-300-200-0",
-    "v-300-200-8",
-    
-    "v-2000-100-0",
-    "v-2000-100-8",
-    "v-2000-150-0",
-    "v-2000-150-8",
-    "v-2000-200-0",
-    "v-2000-200-8"
+   "v-80-0-300",
+   "v-80-0-2000",
+   "v-80-8-300",
+   "v-80-8-2000",
+   "v-155-0-300",
+   "v-155-0-2000",
+   "v-155-8-300",
+   "v-155-8-2000",
+   "v-230-0-300",
+   "v-230-0-2000",
+   "v-230-8-300",
+   "v-230-8-2000",
 ]
-
-struct AudioToggle : View {
-    
-    @State var bgColor = Color.gray
-    @State var text = "Activate Audio"
-    
-    private let audioOn : () -> Bool
-    private let toggleAudio : () -> Void
-
-    init(audioOn: @escaping () -> Bool, toggleAudio : @escaping () -> Void) {
-        self.audioOn = audioOn
-        self.toggleAudio = toggleAudio
-    }
-    
-    var body : some View {
-        Button(action: {
-            toggleAudio()
-    
-            if audioOn() {
-                bgColor = Color.green
-                text = "Deactivate Audio"
-            } else {
-                bgColor = Color.gray
-                text = "Activate Audio"
-            }}, label: {
-                Text(text)
-                    .padding()
-                    .background(
-                        RoundedRectangle(cornerRadius: 8).fill(bgColor)                        .frame(minWidth: 100, maxWidth: .infinity)
-                            .font(.largeTitle)
-                    )
-                    .foregroundColor(.white)
-                    .frame(minWidth: 100, maxWidth: .infinity)
-            })
-        
-    }
-}
 
 struct ContentView: View {
     
@@ -74,7 +29,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-            AudioToggle(audioOn: vibManager.audioOn, toggleAudio: vibManager.playAudio)
+//            AudioToggle(audioOn: vibManager.audioOn, toggleAudio: vibManager.playAudio)
         
             ScrollView {
                 VStack {
