@@ -14,38 +14,22 @@
 		2D14FE2C27E9B7F60040E27B /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2B27E9B7F60040E27B /* PlayButton.swift */; };
 		2D14FE3027E9BF900040E27B /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2F27E9BF900040E27B /* VibrationManager.swift */; };
 		2D14FE3227EA76B70040E27B /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE3127EA76B70040E27B /* ButtonRow.swift */; };
+		2D315056286C81A9005266E6 /* v-09-11-4-8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */; };
+		2D315057286C81A9005266E6 /* v-10-10-1-10.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */; };
+		2D315058286C81A9005266E6 /* v-09-11-3-50.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */; };
+		2D315059286C81A9005266E6 /* v-09-11-3-24.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */; };
+		2D31505A286C81A9005266E6 /* v-09-10-4-20.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */; };
+		2D31505B286C81A9005266E6 /* v-09-12-2-40.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */; };
+		2D31505C286C81A9005266E6 /* v-09-11-3-12.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */; };
+		2D31505D286C81A9005266E6 /* v-09-10-7-9.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */; };
+		2D31505E286C81A9005266E6 /* v-09-18-1-55.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */; };
+		2D31505F286C81A9005266E6 /* v-10-28-7-35.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */; };
+		2D315060286C81A9005266E6 /* v-09-11-3-8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */; };
+		2D315061286C81A9005266E6 /* v-10-28-7-31.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */; };
+		2D315062286C81A9005266E6 /* v-10-21-3-45.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */; };
+		2D315063286C81A9005266E6 /* v-09-12-1-19.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */; };
 		2D5D166227EAF205004AB418 /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; };
 		2D5D166327EAF205004AB418 /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2DA5233827EDB2AB004D8CB2 /* v-50-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232627EDB2AA004D8CB2 /* v-50-100-0.wav */; };
-		2DA5233927EDB2AB004D8CB2 /* v-300-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232727EDB2AA004D8CB2 /* v-300-100-0.wav */; };
-		2DA5233A27EDB2AB004D8CB2 /* v-50-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232827EDB2AA004D8CB2 /* v-50-150-0.wav */; };
-		2DA5233B27EDB2AB004D8CB2 /* v-2000-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232927EDB2AA004D8CB2 /* v-2000-200-8.wav */; };
-		2DA5233C27EDB2AB004D8CB2 /* v-50-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232A27EDB2AA004D8CB2 /* v-50-150-8.wav */; };
-		2DA5233D27EDB2AB004D8CB2 /* v-300-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232B27EDB2AA004D8CB2 /* v-300-150-8.wav */; };
-		2DA5233E27EDB2AB004D8CB2 /* v-50-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232C27EDB2AA004D8CB2 /* v-50-200-0.wav */; };
-		2DA5233F27EDB2AB004D8CB2 /* v-300-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232D27EDB2AA004D8CB2 /* v-300-100-8.wav */; };
-		2DA5234027EDB2AB004D8CB2 /* v-50-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232E27EDB2AA004D8CB2 /* v-50-200-8.wav */; };
-		2DA5234127EDB2AB004D8CB2 /* v-2000-150-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5232F27EDB2AA004D8CB2 /* v-2000-150-8.wav */; };
-		2DA5234227EDB2AB004D8CB2 /* v-300-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233027EDB2AA004D8CB2 /* v-300-200-0.wav */; };
-		2DA5234327EDB2AB004D8CB2 /* v-2000-100-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233127EDB2AA004D8CB2 /* v-2000-100-0.wav */; };
-		2DA5234427EDB2AB004D8CB2 /* v-300-200-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233227EDB2AB004D8CB2 /* v-300-200-8.wav */; };
-		2DA5234527EDB2AB004D8CB2 /* v-2000-200-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233327EDB2AB004D8CB2 /* v-2000-200-0.wav */; };
-		2DA5234627EDB2AB004D8CB2 /* v-300-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233427EDB2AB004D8CB2 /* v-300-150-0.wav */; };
-		2DA5234727EDB2AB004D8CB2 /* v-2000-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233527EDB2AB004D8CB2 /* v-2000-100-8.wav */; };
-		2DA5234827EDB2AB004D8CB2 /* v-50-100-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233627EDB2AB004D8CB2 /* v-50-100-8.wav */; };
-		2DA5234927EDB2AB004D8CB2 /* v-2000-150-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DA5233727EDB2AB004D8CB2 /* v-2000-150-0.wav */; };
-		2DD96FF02838818F00F92B6E /* v-230-0-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE42838818F00F92B6E /* v-230-0-300.ahap */; };
-		2DD96FF12838818F00F92B6E /* v-230-8-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE52838818F00F92B6E /* v-230-8-300.ahap */; };
-		2DD96FF22838818F00F92B6E /* v-155-0-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE62838818F00F92B6E /* v-155-0-2000.ahap */; };
-		2DD96FF32838818F00F92B6E /* v-155-8-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE72838818F00F92B6E /* v-155-8-300.ahap */; };
-		2DD96FF42838818F00F92B6E /* v-230-0-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE82838818F00F92B6E /* v-230-0-2000.ahap */; };
-		2DD96FF52838818F00F92B6E /* v-80-0-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FE92838818F00F92B6E /* v-80-0-2000.ahap */; };
-		2DD96FF62838818F00F92B6E /* v-155-0-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FEA2838818F00F92B6E /* v-155-0-300.ahap */; };
-		2DD96FF72838818F00F92B6E /* v-80-0-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FEB2838818F00F92B6E /* v-80-0-300.ahap */; };
-		2DD96FF82838818F00F92B6E /* v-155-8-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FEC2838818F00F92B6E /* v-155-8-2000.ahap */; };
-		2DD96FF92838818F00F92B6E /* v-230-8-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FED2838818F00F92B6E /* v-230-8-2000.ahap */; };
-		2DD96FFA2838818F00F92B6E /* v-80-8-2000.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FEE2838818F00F92B6E /* v-80-8-2000.ahap */; };
-		2DD96FFB2838818F00F92B6E /* v-80-8-300.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96FEF2838818F00F92B6E /* v-80-8-300.ahap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,36 +56,20 @@
 		2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LofeltHaptics.xcframework; sourceTree = "<group>"; };
 		2D14FE2F27E9BF900040E27B /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
 		2D14FE3127EA76B70040E27B /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
-		2DA5232627EDB2AA004D8CB2 /* v-50-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-100-0.wav"; sourceTree = "<group>"; };
-		2DA5232727EDB2AA004D8CB2 /* v-300-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-100-0.wav"; sourceTree = "<group>"; };
-		2DA5232827EDB2AA004D8CB2 /* v-50-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-150-0.wav"; sourceTree = "<group>"; };
-		2DA5232927EDB2AA004D8CB2 /* v-2000-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-200-8.wav"; sourceTree = "<group>"; };
-		2DA5232A27EDB2AA004D8CB2 /* v-50-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-150-8.wav"; sourceTree = "<group>"; };
-		2DA5232B27EDB2AA004D8CB2 /* v-300-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-150-8.wav"; sourceTree = "<group>"; };
-		2DA5232C27EDB2AA004D8CB2 /* v-50-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-200-0.wav"; sourceTree = "<group>"; };
-		2DA5232D27EDB2AA004D8CB2 /* v-300-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-100-8.wav"; sourceTree = "<group>"; };
-		2DA5232E27EDB2AA004D8CB2 /* v-50-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-200-8.wav"; sourceTree = "<group>"; };
-		2DA5232F27EDB2AA004D8CB2 /* v-2000-150-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-150-8.wav"; sourceTree = "<group>"; };
-		2DA5233027EDB2AA004D8CB2 /* v-300-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-200-0.wav"; sourceTree = "<group>"; };
-		2DA5233127EDB2AA004D8CB2 /* v-2000-100-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-100-0.wav"; sourceTree = "<group>"; };
-		2DA5233227EDB2AB004D8CB2 /* v-300-200-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-200-8.wav"; sourceTree = "<group>"; };
-		2DA5233327EDB2AB004D8CB2 /* v-2000-200-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-200-0.wav"; sourceTree = "<group>"; };
-		2DA5233427EDB2AB004D8CB2 /* v-300-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-300-150-0.wav"; sourceTree = "<group>"; };
-		2DA5233527EDB2AB004D8CB2 /* v-2000-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-100-8.wav"; sourceTree = "<group>"; };
-		2DA5233627EDB2AB004D8CB2 /* v-50-100-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-50-100-8.wav"; sourceTree = "<group>"; };
-		2DA5233727EDB2AB004D8CB2 /* v-2000-150-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "v-2000-150-0.wav"; sourceTree = "<group>"; };
-		2DD96FE42838818F00F92B6E /* v-230-0-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-230-0-300.ahap"; path = "../../../Vibrations/ahapT/v-230-0-300.ahap"; sourceTree = "<group>"; };
-		2DD96FE52838818F00F92B6E /* v-230-8-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-230-8-300.ahap"; path = "../../../Vibrations/ahapT/v-230-8-300.ahap"; sourceTree = "<group>"; };
-		2DD96FE62838818F00F92B6E /* v-155-0-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-155-0-2000.ahap"; path = "../../../Vibrations/ahapT/v-155-0-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FE72838818F00F92B6E /* v-155-8-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-155-8-300.ahap"; path = "../../../Vibrations/ahapT/v-155-8-300.ahap"; sourceTree = "<group>"; };
-		2DD96FE82838818F00F92B6E /* v-230-0-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-230-0-2000.ahap"; path = "../../../Vibrations/ahapT/v-230-0-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FE92838818F00F92B6E /* v-80-0-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-80-0-2000.ahap"; path = "../../../Vibrations/ahapT/v-80-0-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FEA2838818F00F92B6E /* v-155-0-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-155-0-300.ahap"; path = "../../../Vibrations/ahapT/v-155-0-300.ahap"; sourceTree = "<group>"; };
-		2DD96FEB2838818F00F92B6E /* v-80-0-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-80-0-300.ahap"; path = "../../../Vibrations/ahapT/v-80-0-300.ahap"; sourceTree = "<group>"; };
-		2DD96FEC2838818F00F92B6E /* v-155-8-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-155-8-2000.ahap"; path = "../../../Vibrations/ahapT/v-155-8-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FED2838818F00F92B6E /* v-230-8-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-230-8-2000.ahap"; path = "../../../Vibrations/ahapT/v-230-8-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FEE2838818F00F92B6E /* v-80-8-2000.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-80-8-2000.ahap"; path = "../../../Vibrations/ahapT/v-80-8-2000.ahap"; sourceTree = "<group>"; };
-		2DD96FEF2838818F00F92B6E /* v-80-8-300.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "v-80-8-300.ahap"; path = "../../../Vibrations/ahapT/v-80-8-300.ahap"; sourceTree = "<group>"; };
+		2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-4-8.ahap"; sourceTree = "<group>"; };
+		2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-10-1-10.ahap"; sourceTree = "<group>"; };
+		2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-50.ahap"; sourceTree = "<group>"; };
+		2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-24.ahap"; sourceTree = "<group>"; };
+		2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-10-4-20.ahap"; sourceTree = "<group>"; };
+		2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-12-2-40.ahap"; sourceTree = "<group>"; };
+		2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-12.ahap"; sourceTree = "<group>"; };
+		2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-10-7-9.ahap"; sourceTree = "<group>"; };
+		2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-18-1-55.ahap"; sourceTree = "<group>"; };
+		2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-28-7-35.ahap"; sourceTree = "<group>"; };
+		2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-8.ahap"; sourceTree = "<group>"; };
+		2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-28-7-31.ahap"; sourceTree = "<group>"; };
+		2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-21-3-45.ahap"; sourceTree = "<group>"; };
+		2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-12-1-19.ahap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +103,6 @@
 		2D14FE1C27E9B69F0040E27B /* VibTester */ = {
 			isa = PBXGroup;
 			children = (
-				2D2381CA27ED36D2007CEF6D /* wav Files */,
 				2D14FE3127EA76B70040E27B /* ButtonRow.swift */,
 				2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */,
 				2D14FE1D27E9B69F0040E27B /* VibTesterApp.swift */,
@@ -144,18 +111,20 @@
 				2D14FE2327E9B6A10040E27B /* Preview Content */,
 				2D14FE2B27E9B7F60040E27B /* PlayButton.swift */,
 				2D14FE2F27E9BF900040E27B /* VibrationManager.swift */,
-				2DD96FEB2838818F00F92B6E /* v-80-0-300.ahap */,
-				2DD96FE92838818F00F92B6E /* v-80-0-2000.ahap */,
-				2DD96FEF2838818F00F92B6E /* v-80-8-300.ahap */,
-				2DD96FEE2838818F00F92B6E /* v-80-8-2000.ahap */,
-				2DD96FEA2838818F00F92B6E /* v-155-0-300.ahap */,
-				2DD96FE62838818F00F92B6E /* v-155-0-2000.ahap */,
-				2DD96FE72838818F00F92B6E /* v-155-8-300.ahap */,
-				2DD96FEC2838818F00F92B6E /* v-155-8-2000.ahap */,
-				2DD96FE42838818F00F92B6E /* v-230-0-300.ahap */,
-				2DD96FE82838818F00F92B6E /* v-230-0-2000.ahap */,
-				2DD96FE52838818F00F92B6E /* v-230-8-300.ahap */,
-				2DD96FED2838818F00F92B6E /* v-230-8-2000.ahap */,
+				2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */,
+				2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */,
+				2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */,
+				2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */,
+				2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */,
+				2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */,
+				2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */,
+				2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */,
+				2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */,
+				2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */,
+				2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */,
+				2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */,
+				2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */,
+				2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */,
 			);
 			path = VibTester;
 			sourceTree = "<group>";
@@ -166,31 +135,6 @@
 				2D14FE2427E9B6A10040E27B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2D2381CA27ED36D2007CEF6D /* wav Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DA5232627EDB2AA004D8CB2 /* v-50-100-0.wav */,
-				2DA5233627EDB2AB004D8CB2 /* v-50-100-8.wav */,
-				2DA5232827EDB2AA004D8CB2 /* v-50-150-0.wav */,
-				2DA5232A27EDB2AA004D8CB2 /* v-50-150-8.wav */,
-				2DA5232C27EDB2AA004D8CB2 /* v-50-200-0.wav */,
-				2DA5232E27EDB2AA004D8CB2 /* v-50-200-8.wav */,
-				2DA5232727EDB2AA004D8CB2 /* v-300-100-0.wav */,
-				2DA5232D27EDB2AA004D8CB2 /* v-300-100-8.wav */,
-				2DA5233427EDB2AB004D8CB2 /* v-300-150-0.wav */,
-				2DA5232B27EDB2AA004D8CB2 /* v-300-150-8.wav */,
-				2DA5233027EDB2AA004D8CB2 /* v-300-200-0.wav */,
-				2DA5233227EDB2AB004D8CB2 /* v-300-200-8.wav */,
-				2DA5233127EDB2AA004D8CB2 /* v-2000-100-0.wav */,
-				2DA5233527EDB2AB004D8CB2 /* v-2000-100-8.wav */,
-				2DA5233727EDB2AB004D8CB2 /* v-2000-150-0.wav */,
-				2DA5232F27EDB2AA004D8CB2 /* v-2000-150-8.wav */,
-				2DA5233327EDB2AB004D8CB2 /* v-2000-200-0.wav */,
-				2DA5232927EDB2AA004D8CB2 /* v-2000-200-8.wav */,
-			);
-			path = "wav Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,38 +196,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA5233927EDB2AB004D8CB2 /* v-300-100-0.wav in Resources */,
-				2DD96FF42838818F00F92B6E /* v-230-0-2000.ahap in Resources */,
-				2DA5234927EDB2AB004D8CB2 /* v-2000-150-0.wav in Resources */,
-				2DD96FF62838818F00F92B6E /* v-155-0-300.ahap in Resources */,
-				2DD96FF52838818F00F92B6E /* v-80-0-2000.ahap in Resources */,
-				2DD96FF82838818F00F92B6E /* v-155-8-2000.ahap in Resources */,
-				2DA5233D27EDB2AB004D8CB2 /* v-300-150-8.wav in Resources */,
-				2DA5234327EDB2AB004D8CB2 /* v-2000-100-0.wav in Resources */,
-				2DA5234227EDB2AB004D8CB2 /* v-300-200-0.wav in Resources */,
-				2DA5233B27EDB2AB004D8CB2 /* v-2000-200-8.wav in Resources */,
-				2DA5233A27EDB2AB004D8CB2 /* v-50-150-0.wav in Resources */,
-				2DA5233F27EDB2AB004D8CB2 /* v-300-100-8.wav in Resources */,
+				2D315058286C81A9005266E6 /* v-09-11-3-50.ahap in Resources */,
+				2D315063286C81A9005266E6 /* v-09-12-1-19.ahap in Resources */,
+				2D31505B286C81A9005266E6 /* v-09-12-2-40.ahap in Resources */,
+				2D315060286C81A9005266E6 /* v-09-11-3-8.ahap in Resources */,
+				2D315061286C81A9005266E6 /* v-10-28-7-31.ahap in Resources */,
+				2D315059286C81A9005266E6 /* v-09-11-3-24.ahap in Resources */,
+				2D31505F286C81A9005266E6 /* v-10-28-7-35.ahap in Resources */,
 				2D14FE2527E9B6A10040E27B /* Preview Assets.xcassets in Resources */,
-				2DA5234627EDB2AB004D8CB2 /* v-300-150-0.wav in Resources */,
-				2DA5233E27EDB2AB004D8CB2 /* v-50-200-0.wav in Resources */,
+				2D315056286C81A9005266E6 /* v-09-11-4-8.ahap in Resources */,
 				2D14FE2227E9B6A10040E27B /* Assets.xcassets in Resources */,
-				2DD96FF92838818F00F92B6E /* v-230-8-2000.ahap in Resources */,
-				2DA5234427EDB2AB004D8CB2 /* v-300-200-8.wav in Resources */,
-				2DA5234727EDB2AB004D8CB2 /* v-2000-100-8.wav in Resources */,
-				2DA5234027EDB2AB004D8CB2 /* v-50-200-8.wav in Resources */,
-				2DA5234127EDB2AB004D8CB2 /* v-2000-150-8.wav in Resources */,
-				2DA5234527EDB2AB004D8CB2 /* v-2000-200-0.wav in Resources */,
-				2DA5233827EDB2AB004D8CB2 /* v-50-100-0.wav in Resources */,
-				2DD96FF02838818F00F92B6E /* v-230-0-300.ahap in Resources */,
-				2DD96FFB2838818F00F92B6E /* v-80-8-300.ahap in Resources */,
-				2DD96FF22838818F00F92B6E /* v-155-0-2000.ahap in Resources */,
-				2DD96FF32838818F00F92B6E /* v-155-8-300.ahap in Resources */,
-				2DA5233C27EDB2AB004D8CB2 /* v-50-150-8.wav in Resources */,
-				2DA5234827EDB2AB004D8CB2 /* v-50-100-8.wav in Resources */,
-				2DD96FFA2838818F00F92B6E /* v-80-8-2000.ahap in Resources */,
-				2DD96FF12838818F00F92B6E /* v-230-8-300.ahap in Resources */,
-				2DD96FF72838818F00F92B6E /* v-80-0-300.ahap in Resources */,
+				2D31505A286C81A9005266E6 /* v-09-10-4-20.ahap in Resources */,
+				2D315062286C81A9005266E6 /* v-10-21-3-45.ahap in Resources */,
+				2D315057286C81A9005266E6 /* v-10-10-1-10.ahap in Resources */,
+				2D31505D286C81A9005266E6 /* v-09-10-7-9.ahap in Resources */,
+				2D31505E286C81A9005266E6 /* v-09-18-1-55.ahap in Resources */,
+				2D31505C286C81A9005266E6 /* v-09-11-3-12.ahap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +371,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibTester;
+				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibrationTester000000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibTester;
+				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibrationTester000000;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

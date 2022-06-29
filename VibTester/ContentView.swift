@@ -8,19 +8,14 @@
 import SwiftUI
 
 
-private let vibrations = [
-   "v-80-0-300",
-   "v-80-0-2000",
-   "v-80-8-300",
-   "v-80-8-2000",
-   "v-155-0-300",
-   "v-155-0-2000",
-   "v-155-8-300",
-   "v-155-8-2000",
-   "v-230-0-300",
-   "v-230-0-2000",
-   "v-230-8-300",
-   "v-230-8-2000",
+private let vibrations : [String: [String]] = [
+    "Engine": ["v-09-11-3-24", "v-09-11-3-8"],
+    "Animal": ["v-09-12-1-19", "v-10-28-7-35"],
+    "Walking": ["v-10-10-1-10", "v-09-12-2-40"],
+    "Heartbeat": ["v-09-18-1-55", "v-09-10-4-20"],
+    "Tapping": ["v-09-10-7-9", "v-09-11-4-8"],
+    "Jumping": ["v-09-11-3-50", "v-10-28-7-31"],
+    "Alarm": ["v-09-11-3-12", "v-10-21-3-45"]
 ]
 
 struct ContentView: View {
@@ -33,9 +28,11 @@ struct ContentView: View {
         
             ScrollView {
                 VStack {
-                    ForEach(0..<(vibrations.count / 3), id: \.self) { index in
+                    
+                    ForEach(Array(vibrations.keys), id: \.self) { key in
                         ButtonRow(
-                            vibNames: Array(vibrations[(3 * index)..<(3 * index + 3)]),
+                            groupName: key,
+                            vibNames: vibrations[key]!,
                             vibManager: vibManager
                         )
                         Spacer()
