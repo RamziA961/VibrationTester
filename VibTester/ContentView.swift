@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 private let vibrations : [String: [String]] = [
     "Engine": ["v-09-11-3-24", "v-09-11-3-8"],
     "Animal": ["v-09-12-1-19", "v-10-28-7-35"],
@@ -19,26 +18,53 @@ private let vibrations : [String: [String]] = [
 ]
 
 struct ContentView: View {
-    
-    private let vibManager = VibrationManager()
+    private let vibManager = VibrationManager(Array(Array(vibrations.values).joined()))
     
     var body: some View {
-        VStack{
+        VStack() {
 //            AudioToggle(audioOn: vibManager.audioOn, toggleAudio: vibManager.playAudio)
-        
-            ScrollView {
-                VStack {
-                    
-                    ForEach(Array(vibrations.keys), id: \.self) { key in
-                        ButtonRow(
-                            groupName: key,
-                            vibNames: vibrations[key]!,
-                            vibManager: vibManager
-                        )
-                        Spacer()
+            
+            VStack {
+                Label ("Objective", systemImage: "waveform")
+                ScrollView {
+                    VStack {
+                        ForEach(vibrations.keys.sorted(by: <), id: \.self) { key in
+                            ButtonRow (
+                                groupName: key,
+                                vibNames: vibrations[key]!,
+                                vibManager: vibManager,
+                                objective: true
+                            )
+                            Spacer()
+                        }
                     }
                 }
+                .background(Color.secondary)
+                .cornerRadius(15)
+                
             }
+            
+            Spacer(minLength: 30)
+            
+            VStack {
+                Label("Subjective", systemImage: "waveform")
+                ScrollView {
+                    VStack {
+                        ForEach(vibrations.keys.sorted(by: <), id: \.self) { key in
+                            ButtonRow(
+                                groupName: key,
+                                vibNames: vibrations[key]!,
+                                vibManager: vibManager,
+                                objective: false
+                            )
+                            Spacer()
+                        }
+                    }
+                }
+                .background(Color.secondary)
+                .cornerRadius(15)
+            }
+            
         }
         
     }

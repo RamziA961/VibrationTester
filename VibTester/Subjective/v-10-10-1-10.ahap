@@ -1,0 +1,27 @@
+{"Version":1.0,
+    "Metadata":{"Project":"v-10-10-1-10","Created":"hs@di.ku.dk","Description":""},"Pattern":[
+        {"ParameterCurve":{"ParameterID":"HapticIntensityControl",
+            "Time":0.0,"ParameterCurveControlPoints":[
+                {"Time":0.0,"ParameterValue":1.0},
+                {"Time":1.0,"ParameterValue":1.0},
+                {"Time":1.000000001,"ParameterValue":0.0},
+                {"Time":1.399999999,"ParameterValue":0.0},
+                {"Time":1.4,"ParameterValue":1.0},
+                {"Time":2.4,"ParameterValue":1.0},
+                {"Time":2.400000001,"ParameterValue":0.0},
+                {"Time":2.999999999,"ParameterValue":0.0},
+                {"Time":3.0,"ParameterValue":1.0},
+                {"Time":4.0,"ParameterValue":1.0}]}},
+        {"ParameterCurve":{"ParameterID":"HapticSharpnessControl",
+            "Time":0.0,"ParameterCurveControlPoints":[
+                {"Time":0.0,"ParameterValue":0.5},
+                {"Time":1.0,"ParameterValue":-1.0},
+                {"Time":1.000000001,"ParameterValue":0.0},
+                {"Time":1.399999999,"ParameterValue":0.0},
+                {"Time":1.4,"ParameterValue":0.5},
+                {"Time":2.4,"ParameterValue":-1.0},
+                {"Time":2.400000001,"ParameterValue":0.0},
+                {"Time":2.999999999,"ParameterValue":0.0},
+                {"Time":3.0,"ParameterValue":0.5},
+                {"Time":4.0,"ParameterValue":-1.0}]}},
+    {"Event":{"EventType":"HapticContinuous","Time":0.0,"EventDuration":4.0,"EventParameters":[{"ParameterID":"HapticIntensity","ParameterValue":1.0},{"ParameterID":"HapticSharpness","ParameterValue":0.0}]}}]}

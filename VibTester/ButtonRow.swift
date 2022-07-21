@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct ButtonRow : View {
-        
+    private let objective : Bool
     private let groupName : String
     private let vibNames : [String]
     private let vibManager : VibrationManager
 
     
-    init(groupName: String, vibNames: [String], vibManager: VibrationManager) {
+    init(groupName: String, vibNames: [String], vibManager: VibrationManager, objective: Bool) {
+        self.objective = objective
         self.groupName = groupName
         self.vibNames = vibNames
         self.vibManager = vibManager
@@ -24,7 +25,7 @@ struct ButtonRow : View {
         Section(header: Text(self.groupName)) {
             HStack{
                 ForEach(vibNames, id: \.self) {name in
-                    PlayButton(text: name, vibManager: vibManager)
+                    PlayButton(text: name, vibManager: vibManager, objective : self.objective)
                     
                     if name != vibNames.last {
                         Spacer()

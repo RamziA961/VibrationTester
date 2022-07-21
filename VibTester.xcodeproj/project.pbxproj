@@ -14,40 +14,12 @@
 		2D14FE2C27E9B7F60040E27B /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2B27E9B7F60040E27B /* PlayButton.swift */; };
 		2D14FE3027E9BF900040E27B /* VibrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE2F27E9BF900040E27B /* VibrationManager.swift */; };
 		2D14FE3227EA76B70040E27B /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D14FE3127EA76B70040E27B /* ButtonRow.swift */; };
-		2D315056286C81A9005266E6 /* v-09-11-4-8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */; };
-		2D315057286C81A9005266E6 /* v-10-10-1-10.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */; };
-		2D315058286C81A9005266E6 /* v-09-11-3-50.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */; };
-		2D315059286C81A9005266E6 /* v-09-11-3-24.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */; };
-		2D31505A286C81A9005266E6 /* v-09-10-4-20.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */; };
-		2D31505B286C81A9005266E6 /* v-09-12-2-40.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */; };
-		2D31505C286C81A9005266E6 /* v-09-11-3-12.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */; };
-		2D31505D286C81A9005266E6 /* v-09-10-7-9.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */; };
-		2D31505E286C81A9005266E6 /* v-09-18-1-55.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */; };
-		2D31505F286C81A9005266E6 /* v-10-28-7-35.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */; };
-		2D315060286C81A9005266E6 /* v-09-11-3-8.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */; };
-		2D315061286C81A9005266E6 /* v-10-28-7-31.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */; };
-		2D315062286C81A9005266E6 /* v-10-21-3-45.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */; };
-		2D315063286C81A9005266E6 /* v-09-12-1-19.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */; };
-		2D5D166227EAF205004AB418 /* LofeltHaptics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; };
-		2D5D166327EAF205004AB418 /* LofeltHaptics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DE0B59E28816E7000D11425 /* Subjective in Resources */ = {isa = PBXBuildFile; fileRef = 2DE0B59D28816E7000D11425 /* Subjective */; };
+		2DE0B5A028816E7B00D11425 /* Objective in Resources */ = {isa = PBXBuildFile; fileRef = 2DE0B59F28816E7B00D11425 /* Objective */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2D5D166427EAF205004AB418 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2D5D166327EAF205004AB418 /* LofeltHaptics.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2D14FE1A27E9B69F0040E27B /* VibTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D14FE1A27E9B69F0040E27B /* VibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D14FE1D27E9B69F0040E27B /* VibTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibTesterApp.swift; sourceTree = "<group>"; };
 		2D14FE1F27E9B69F0040E27B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D14FE2127E9B6A10040E27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,20 +28,8 @@
 		2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LofeltHaptics.xcframework; sourceTree = "<group>"; };
 		2D14FE2F27E9BF900040E27B /* VibrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationManager.swift; sourceTree = "<group>"; };
 		2D14FE3127EA76B70040E27B /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
-		2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-4-8.ahap"; sourceTree = "<group>"; };
-		2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-10-1-10.ahap"; sourceTree = "<group>"; };
-		2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-50.ahap"; sourceTree = "<group>"; };
-		2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-24.ahap"; sourceTree = "<group>"; };
-		2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-10-4-20.ahap"; sourceTree = "<group>"; };
-		2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-12-2-40.ahap"; sourceTree = "<group>"; };
-		2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-12.ahap"; sourceTree = "<group>"; };
-		2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-10-7-9.ahap"; sourceTree = "<group>"; };
-		2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-18-1-55.ahap"; sourceTree = "<group>"; };
-		2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-28-7-35.ahap"; sourceTree = "<group>"; };
-		2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-11-3-8.ahap"; sourceTree = "<group>"; };
-		2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-28-7-31.ahap"; sourceTree = "<group>"; };
-		2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-10-21-3-45.ahap"; sourceTree = "<group>"; };
-		2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "v-09-12-1-19.ahap"; sourceTree = "<group>"; };
+		2DE0B59D28816E7000D11425 /* Subjective */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Subjective; sourceTree = "<group>"; };
+		2DE0B59F28816E7B00D11425 /* Objective */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Objective; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D5D166227EAF205004AB418 /* LofeltHaptics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +54,7 @@
 		2D14FE1B27E9B69F0040E27B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D14FE1A27E9B69F0040E27B /* VibTester.app */,
+				2D14FE1A27E9B69F0040E27B /* VibTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,28 +62,16 @@
 		2D14FE1C27E9B69F0040E27B /* VibTester */ = {
 			isa = PBXGroup;
 			children = (
+				2DE0B59D28816E7000D11425 /* Subjective */,
+				2DE0B59F28816E7B00D11425 /* Objective */,
 				2D14FE3127EA76B70040E27B /* ButtonRow.swift */,
-				2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */,
-				2D14FE1D27E9B69F0040E27B /* VibTesterApp.swift */,
 				2D14FE1F27E9B69F0040E27B /* ContentView.swift */,
-				2D14FE2127E9B6A10040E27B /* Assets.xcassets */,
-				2D14FE2327E9B6A10040E27B /* Preview Content */,
 				2D14FE2B27E9B7F60040E27B /* PlayButton.swift */,
 				2D14FE2F27E9BF900040E27B /* VibrationManager.swift */,
-				2D31504C286C81A9005266E6 /* v-09-10-4-20.ahap */,
-				2D31504F286C81A9005266E6 /* v-09-10-7-9.ahap */,
-				2D315052286C81A9005266E6 /* v-09-11-3-8.ahap */,
-				2D31504E286C81A9005266E6 /* v-09-11-3-12.ahap */,
-				2D31504B286C81A9005266E6 /* v-09-11-3-24.ahap */,
-				2D31504A286C81A9005266E6 /* v-09-11-3-50.ahap */,
-				2D315048286C81A9005266E6 /* v-09-11-4-8.ahap */,
-				2D315055286C81A9005266E6 /* v-09-12-1-19.ahap */,
-				2D31504D286C81A9005266E6 /* v-09-12-2-40.ahap */,
-				2D315050286C81A9005266E6 /* v-09-18-1-55.ahap */,
-				2D315049286C81A9005266E6 /* v-10-10-1-10.ahap */,
-				2D315054286C81A9005266E6 /* v-10-21-3-45.ahap */,
-				2D315053286C81A9005266E6 /* v-10-28-7-31.ahap */,
-				2D315051286C81A9005266E6 /* v-10-28-7-35.ahap */,
+				2D14FE1D27E9B69F0040E27B /* VibTesterApp.swift */,
+				2D14FE2127E9B6A10040E27B /* Assets.xcassets */,
+				2D14FE2D27E9BF120040E27B /* LofeltHaptics.xcframework */,
+				2D14FE2327E9B6A10040E27B /* Preview Content */,
 			);
 			path = VibTester;
 			sourceTree = "<group>";
@@ -147,15 +94,16 @@
 				2D14FE1627E9B69F0040E27B /* Sources */,
 				2D14FE1727E9B69F0040E27B /* Frameworks */,
 				2D14FE1827E9B69F0040E27B /* Resources */,
-				2D5D166427EAF205004AB418 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VibTester;
+			packageProductDependencies = (
+			);
 			productName = VibTester;
-			productReference = 2D14FE1A27E9B69F0040E27B /* VibTester.app */;
+			productReference = 2D14FE1A27E9B69F0040E27B /* VibTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,6 +130,8 @@
 				Base,
 			);
 			mainGroup = 2D14FE1127E9B69F0040E27B;
+			packageReferences = (
+			);
 			productRefGroup = 2D14FE1B27E9B69F0040E27B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,22 +146,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D315058286C81A9005266E6 /* v-09-11-3-50.ahap in Resources */,
-				2D315063286C81A9005266E6 /* v-09-12-1-19.ahap in Resources */,
-				2D31505B286C81A9005266E6 /* v-09-12-2-40.ahap in Resources */,
-				2D315060286C81A9005266E6 /* v-09-11-3-8.ahap in Resources */,
-				2D315061286C81A9005266E6 /* v-10-28-7-31.ahap in Resources */,
-				2D315059286C81A9005266E6 /* v-09-11-3-24.ahap in Resources */,
-				2D31505F286C81A9005266E6 /* v-10-28-7-35.ahap in Resources */,
 				2D14FE2527E9B6A10040E27B /* Preview Assets.xcassets in Resources */,
-				2D315056286C81A9005266E6 /* v-09-11-4-8.ahap in Resources */,
+				2DE0B59E28816E7000D11425 /* Subjective in Resources */,
+				2DE0B5A028816E7B00D11425 /* Objective in Resources */,
 				2D14FE2227E9B6A10040E27B /* Assets.xcassets in Resources */,
-				2D31505A286C81A9005266E6 /* v-09-10-4-20.ahap in Resources */,
-				2D315062286C81A9005266E6 /* v-10-21-3-45.ahap in Resources */,
-				2D315057286C81A9005266E6 /* v-10-10-1-10.ahap in Resources */,
-				2D31505D286C81A9005266E6 /* v-09-10-7-9.ahap in Resources */,
-				2D31505E286C81A9005266E6 /* v-09-18-1-55.ahap in Resources */,
-				2D31505C286C81A9005266E6 /* v-09-11-3-12.ahap in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VibTester/Preview Content\"";
-				DEVELOPMENT_TEAM = BZ69BT7KDM;
+				DEVELOPMENT_TEAM = 3ZDFX5BZ25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -370,12 +308,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibrationTester000000;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "haptic-study-test-uoc-gist";
+				PRODUCT_NAME = VibTest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -387,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VibTester/Preview Content\"";
-				DEVELOPMENT_TEAM = BZ69BT7KDM;
+				DEVELOPMENT_TEAM = 3ZDFX5BZ25;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -400,12 +338,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HapticStudyTeam.VibrationTester000000;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "haptic-study-test-uoc-gist";
+				PRODUCT_NAME = VibTest;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
